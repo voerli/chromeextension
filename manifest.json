@@ -1,15 +1,19 @@
 {
-    "name": "橙子voerli",
+    "name": "下雪小插件",
     "manifest_version": 2,
-    "version": "1.0",
-    "description": "哒哒哒",
+    "version": "0.0.1",
+    "description": "",
     "browser_action": {
       "default_icon": "c.png"
     },
     "content_scripts": [
       {
-        "matches": ["https://www.baidu.com/*"],
+        "matches": ["https://www.baidu.com/"],
         "js": ["main.js"]
       }
-    ]
+    ],
+    "icons" : {
+      "48" : "c.png",
+      "128" : "c.png"
+    }
   }
